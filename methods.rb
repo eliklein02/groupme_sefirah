@@ -33,6 +33,7 @@ class Methods
   def send_update
     # news = fetch_top_headlines
     omer = fetch_todays_omer
+    puts omer
     # time_of_day = Time.now.hour < 12 ? "morning" : "evening"
     # send_message("Good #{time_of_day}!")
     send_message("REMINDER\n#{omer}")
